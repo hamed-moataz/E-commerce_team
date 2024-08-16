@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+    @apply flex flex-col items-center justify-center h-screen relative;
+    background-color: #f5f5f5;
+}
