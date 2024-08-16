@@ -41,9 +41,9 @@ const Header = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-8">
       <li><NavLink to='/'>home</NavLink></li>
-      <li><NavLink to='/'>Contact</NavLink></li>
-      <li><NavLink to='/'>About</NavLink></li>
-      <li><NavLink to='/'>Sign Up</NavLink></li>
+      <li><NavLink to='/contact'>Contact</NavLink></li>
+      <li><NavLink to='/about'>About</NavLink></li>
+      <li><NavLink to='/sign-up'>Sign Up</NavLink></li>
     </ul>
   </div>
   <div className="navbar-end">
